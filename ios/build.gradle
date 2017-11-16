@@ -1,0 +1,29 @@
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+sourceCompatibility = '1.7'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+ext {
+	mainClassName = "at.greywind.test.IOSLauncher"
+}
+
+launchIPhoneSimulator.dependsOn build
+launchIPadSimulator.dependsOn build
+launchIOSDevice.dependsOn build
+createIPA.dependsOn build
+
+robovm {
+	archs = "arm64"
+
+    iosSignIdentity = "C4F320C28894EEE38667FF3F1427398D94DB64BD"
+
+    iosProvisioningProfile = "3b7fec36-60d0-4a28-a4b7-b2f8f33f1748"
+    iosSkipSigning = false
+    stdoutFifo = null
+    stderrFifo = null
+}
+
+eclipse.project {
+    name = appName + "-ios"
+    natures 'org.robovm.eclipse.RoboVMNature'
+}
