@@ -15,12 +15,11 @@ createIPA.dependsOn build
 robovm {
 	archs = "arm64"
 
-    iosSignIdentity = "C4F320C28894EEE38667FF3F1427398D94DB64BD"
-
-    iosProvisioningProfile = "3b7fec36-60d0-4a28-a4b7-b2f8f33f1748"
+    /*iosSignIdentity = "xxx"
+    iosProvisioningProfile = "xxx"
     iosSkipSigning = false
     stdoutFifo = null
-    stderrFifo = null
+    stderrFifo = null*/
 }
 
 eclipse.project {
