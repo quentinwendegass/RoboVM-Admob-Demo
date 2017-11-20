@@ -5,21 +5,10 @@ Just a little Gui Framework build on top of Libgdx
 ## Getting Started
 
 ```
-to come
-```
-
-### Prerequisites
+* Clone the repository
+* Import to Eclipse or Intellij
 
 ```
-to come
-```
-
-### Installing
-
-```
-to come
-```
-
 ## Built With
 
 * [LibGdx](https://libgdx.badlogicgames.com/) - Libgdx is a Java game development framework that provides a unified API that works across all supported platforms. 
