@@ -5,8 +5,8 @@ Just a little Gui Framework build on top of Libgdx
 ## Getting Started
 
 ```
-* **Clone the repository**
-* **Import to Eclipse or Intellij**
+* __Clone the repository__
+* __Import to Eclipse or Intellij__
 ```
 ## Built With
 
