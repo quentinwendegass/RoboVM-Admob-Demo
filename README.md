@@ -1,6 +1,6 @@
 # RoboVM-Admob-Test
 
-Test to integrate the Google Mobile Ads SDK into an RoboVM Project.
+Test to integrate the Google Mobile Ads SDK into a RoboVM Project.
 
 ## Installing
 
